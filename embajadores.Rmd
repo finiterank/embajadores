@@ -41,3 +41,6 @@ p <- p + scale_fill_discrete(name="Tipo de embajador", na.value="grey90")
 p
 ```
 
+```{r}
+ggsave("pics/embajadores.png", p, width=10, height=5)
+```
