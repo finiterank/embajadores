@@ -1,0 +1,55 @@
+Pais,Ingles,Tipo de embajador,comentario,comentario2,tiponombramiento,tipo2
+Alemania,Germany,politico,,,1,4
+Argentina,Argentina,politico,,,1,4
+Australia,Australia,funcionaria cancilleria,,,2,1
+Austria,Austria,militar,,,1,3
+Belgica,Belgium,politico,,,1,4
+Bolivia,Bolivia,funcionaria cancilleria,,,2,1
+Brasil,Brazil,funcionaria cancilleria,,,2,1
+Canada,Canada,amigo,,,1,2
+Chile,Chile,amigo,,,1,2
+Corea,South Korea,politico,,,1,4
+Costa Rica,Costa Rica,politico,,,1,4
+Cuba,Cuba,politico,,,1,4
+Ecuador,Ecuador,tecnico,,,1,5
+Egipto,Egypt,funcionaria cancilleria,,,2,1
+El Salvador,El Salvador,funcionaria cancilleria,,,2,1
+Emiratos,United Arab Emirates ,tecnico,,,1,5
+España,Spain,politico,,,1,4
+Estados Unidos,United States,politico,,,1,4
+Finlandia,Finland,funcionaria cancilleria,,,2,1
+Francia,France,politico,,,1,4
+Ghana,Ghana,tecnico,delfin y politica,,1,5
+Gran Bretaña,United Kingdom,amigo,,,1,2
+Guatemala,Guatemala,politico,,,1,4
+Honduras,Honduras,politico,,,1,4
+India,India,funcionaria cancilleria,,,2,1
+Indonesia,Indonesia,politico,,,1,4
+Israel,Israel,funcionaria cancilleria,,,2,1
+Italia,Italy,politico,o amigo,,1,4
+jamaica,Jamaica,tecnico,o politico,,1,5
+japon,Japan,tecnico,o politico,o amigo,1,5
+kenia,Kenia,tecnico,,,1,5
+libano,Lebanon,tecnico,,,1,5
+malasia,Malaysia,tecnico,,,1,5
+marruecos,Morocco,funcionaria cancilleria,,,2,1
+mexico,Mexico,amigo,,,1,2
+nicaragua,Nicaragua,funcionaria cancilleria,,,2,1
+paises bajos,Netherlands,tecnico,,,1,5
+panama,Panama,politico,,,1,4
+paraguay,Paraguay,militar,,,1,3
+peru,Peru,tecnico,,,1,5
+polonia,Poland,funcionaria cancilleria,,,2,1
+portugal,Portugal,amigo,,,1,2
+republica dominicana,Dominican Republic ,militar,,,1,3
+China,China,funcionaria cancilleria,,,2,1
+Rusia,Russia,politico,,,1,4
+Vaticano,Vatican,politico,,,1,4
+Sudafrica,South Africa,funcionaria cancilleria,,,2,1
+Suecia,Sweden,funcionaria cancilleria,,,2,1
+Suiza,Switzerland,politico,,,1,4
+Tailandia,Thailand,tecnico,,,1,5
+Trinidad y Tobago,Trinidad and Tobago,politico,,,1,4
+Turquia,Turkey,amigo,,,1,2
+Uruguay,Uruguay,funcionaria cancilleria,,,2,1
+Venezuela,Venezuela,politico,,,1,4

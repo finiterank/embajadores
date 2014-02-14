@@ -1,0 +1,43 @@
+Embajadores
+========================================================
+
+```{r}
+library(rpart)
+library(ggplot2)
+library(plyr)
+library(gridExtra)
+library(maptools)
+library(rgdal)
+library(Hmisc)
+```
+
+
+```{r}
+embajadores.df <- read.csv("./data/embajadores.csv")
+world <- readOGR(dsn="./world/", layer="country")
+world@data$id <- rownames(world@data)
+world.data <- merge(world@data, embajadores.df, by.x="CNTRY_NAME", by.y="Ingles", all.x=T, all.y=F)
+world.df <- fortify(world)
+world.df <- join(world.df, world.data, by="id")
+```
+
+```{r fig.width=7, fig.height=6}
+
+th <- theme(axis.text.x = element_blank(), 
+            axis.text.y = element_blank(), 
+            axis.ticks= element_blank(),
+            axis.title=element_blank(),
+            panel.grid.major=element_blank(), 
+            panel.grid.minor=element_blank(), 
+            plot.background=element_blank(), 
+             panel.background=element_blank()
+#             panel.border=element_blank()
+            )
+
+p <- ggplot(data=world.df, aes(x=long, y=lat, group=group)) + coord_equal() + th
+p <- p + geom_path(color="white")
+p <- p + geom_polygon(aes(fill=Tipo.de.embajador))
+p <- p + scale_fill_discrete(name="Tipo de embajador", na.value="grey90")
+p
+```
+
